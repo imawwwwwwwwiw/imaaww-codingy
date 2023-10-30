@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="cees.css" />
+    <title>CRUD LocalStrorage</title>
+  </head>
+  <body>
+    <div class="box">
+      <h1>UKURAN WAERPACK SISWA X</h1>
+      <input id="nama" type="text" name="nama" placeholder="input nama..." />
+      <input id="kelas" type="text" name="kelas" placeholder="input kelas..." />
+      <br />
+      <select name="ukuran" id="ukuran">
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+      </select>
+
+      <button class="btn-tambah" onclick="tambah()">Tambah</button>
+      <br />
+      <br />
+      <table id="tabel"></table>
+    </div>
+    <script src="jees3.js"></script>
+  </body>
+</html>
